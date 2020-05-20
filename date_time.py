@@ -82,26 +82,6 @@ def video_or_not(driver, data_of_a_single_post):
     pass
 
 
-# infinite scrolling - looks very nice when there's just "1" scroll bar
-#
-#    last_height = driver.execute_script("return document.body.scrollHeight")
-#    while True:
-#        # Scroll down to bottom
-#        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-#        # Wait to lode page
-#        time.sleep(SCROLL_PAUSE_TIME)
-#
-#        # when going to the very end once, sometimes they don't load the page
-#        driver.execute_script("window.scrollTo(0, document.body.scrollHeight-50);")
-#        time.sleep(SCROLL_PAUSE_TIME)
-#
-#        # Calculate new scroll height and compare with last scroll height
-#        new_height = driver.execute_script("return document.body.scrollHeight")
-#        if new_height == last_height:
-#            break
-#        last_height = new_height
-
-
 # This provided line is required at the end of a Python file
 # to call the main() function.
 if __name__ == '__main__':
