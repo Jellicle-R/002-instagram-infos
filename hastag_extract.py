@@ -12,7 +12,7 @@ def main():
 #    print(hash)
     """
 # open text
-    txt_file = open('dolce.txt', errors='ignore', encoding='utf=8')
+    txt_file = open('dolce-hash.txt', errors='ignore', encoding='utf=8')
     tags = []   # all the text
     my_sharp = []   # only # data
 
