@@ -18,7 +18,7 @@ NORMAL_EXAMPLE = 'https://www.instagram.com/p/B7_5aG7J2EY/'
 
 
 def main():
-    txt_file = open('gucci.txt', errors='ignore', encoding='utf=8')
+    txt_file = open('gucci-url.txt', errors='ignore', encoding='utf=8')
     urls = []  # all the urls (from base file)
     file_final = []
 
